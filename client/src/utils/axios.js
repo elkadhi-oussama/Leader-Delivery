@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const baseURL = process.env.REACT_APP_API_URL || 'http://localhost:5000';
+const baseURL = process.env.REACT_APP_API_URL || 'https://leader-delivery-api.vercel.app';
 
 const axiosInstance = axios.create({
   baseURL,
